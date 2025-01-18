@@ -19,15 +19,15 @@ This project aims to detect fraudulent transactions using machine learning techn
     - Normalization of numerical columns (e.g., Income, Security_code).
 
 - *Feature Extraction with TF-IDF*:
-    . Text-based descriptions were processed using TF-IDF to extract the most relevant textual features.
+    - Text-based descriptions were processed using TF-IDF to extract the most relevant textual features.
   
 - *Feature Selection*:
-    . Feature importance ranking using SelectKBest with the Chi-Square test.
+    - Feature importance ranking using SelectKBest with the Chi-Square test.
   
 - *Machine Learning Models*:
-    . Support Vector Machine (SVM).
-    . K-Nearest Neighbors (KNN).
+    - Support Vector Machine (SVM).
+    - K-Nearest Neighbors (KNN).
   
 - *Evaluation*:
-    . Classification metrics such as accuracy, precision, recall, and F1-score.
-    . Visualization of confusion matrices for detailed insights.
+    - Classification metrics such as accuracy, precision, recall, and F1-score.
+    - Visualization of confusion matrices for detailed insights.
