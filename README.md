@@ -10,7 +10,6 @@ This project aims to detect fraudulent transactions using machine learning techn
 - [Feature Engineering](#feature-engineering)
 - [Modeling](#modeling)
 - [Results](#results)
-- [How to Use](#how-to-use)
 
 ## Features
  - *Data Cleaning and Preprocessing*:
