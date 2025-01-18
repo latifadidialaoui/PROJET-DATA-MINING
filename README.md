@@ -14,9 +14,9 @@ This project aims to detect fraudulent transactions using machine learning techn
 
 ## Features
  - *Data Cleaning and Preprocessing*:
-    Removal of irrelevant columns (e.g., Credit_card_number, Expiry).
-    Encoding categorical features (e.g., Profession) using LabelEncoder.
-    Normalization of numerical columns (e.g., Income, Security_code).
+    - Removal of irrelevant columns (e.g., Credit_card_number, Expiry).
+    - Encoding categorical features (e.g., Profession) using LabelEncoder.
+    - Normalization of numerical columns (e.g., Income, Security_code).
 
 - *Feature Extraction with TF-IDF*:
     . Text-based descriptions were processed using TF-IDF to extract the most relevant textual features.
