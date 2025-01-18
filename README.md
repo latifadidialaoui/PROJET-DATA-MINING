@@ -31,3 +31,12 @@ This project aims to detect fraudulent transactions using machine learning techn
 - *Evaluation*:
     - Classification metrics such as accuracy, precision, recall, and F1-score.
     - Visualization of confusion matrices for detailed insights.
+ 
+## Technologies Used
+   - *Python*: Core programming language for data processing and modeling.
+   - *Jupyter Notebook*: Interactive development environment.
+   - *Pandas*: Data manipulation and analysis.
+   - *NumPy*: Numerical computations.
+   - *Scikit-learn*: Machine learning algorithms, preprocessing, and evaluation.
+   - *Matplotlib and Seaborn*: Data visualization.
+   - *TF-IDF Vectorizer*: Feature extraction for text data.
