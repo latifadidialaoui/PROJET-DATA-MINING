@@ -1,1 +1,3 @@
-# PROJET-DATA-MINING
+# Data Mining 
+
+This project aims to detect fraudulent transactions using machine learning techniques and feature engineering. The dataset includes numerical, categorical, and text data. Advanced preprocessing methods, such as TF-IDF feature extraction, normalization, and categorical encoding, were applied to prepare the data for model training. Multiple machine learning models, including SVM and KNN, were trained to classify transactions as fraudulent or legitimate.
