@@ -40,3 +40,15 @@ This project aims to detect fraudulent transactions using machine learning techn
    - *Scikit-learn*: Machine learning algorithms, preprocessing, and evaluation.
    - *Matplotlib and Seaborn*: Data visualization.
    - *TF-IDF Vectorizer*: Feature extraction for text data.
+
+## Data Preprocessing
+ 1. *Dataset Cleaning*:
+   - Dropped irrelevant columns: Credit_card_number and Expiry.
+   - Checked for missing values and handled them appropriately.
+
+ 2. *Encoding Categorical Data*:
+   - Encoded the Profession column using LabelEncoder.
+
+ 3. *Scaling*:
+   - Normalized the Income and Security_code columns using Min-Max scaling to bring them into the [0,1] range.
+
