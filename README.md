@@ -43,12 +43,39 @@ This project aims to detect fraudulent transactions using machine learning techn
 
 ## Data Preprocessing
  1. *Dataset Cleaning*:
-   - Dropped irrelevant columns: Credit_card_number and Expiry.
-   - Checked for missing values and handled them appropriately.
+      - Dropped irrelevant columns: Credit_card_number and Expiry.
+      - Checked for missing values and handled them appropriately.
 
  2. *Encoding Categorical Data*:
-   - Encoded the Profession column using LabelEncoder.
+      - Encoded the Profession column using LabelEncoder.
 
  3. *Scaling*:
-   - Normalized the Income and Security_code columns using Min-Max scaling to bring them into the [0,1] range.
+      - Normalized the Income and Security_code columns using Min-Max scaling to bring them into the [0,1] range.
 
+## Feature Engineering
+ 1. *Text Feature Extraction with TF-IDF*:
+      - A Description column was programmatically generated to simulate textual data.
+      - Applied TF-IDF to extract the top 100 textual features.
+        
+ 2. *Feature Selection*:
+      - Selected the most important features using SelectKBest with the Chi-Square test.
+
+## Modeling
+ - *Machine Learning Models*:
+      - SVM and KNN were implemented to classify transactions as fraudulent or legitimate.
+
+ - *Evaluation Metrics*:
+      - Accuracy: Measure of overall correctness.
+      - Precision: Ratio of true positives to predicted positives.
+      - Recall: Ability to find all relevant cases.
+      - F1-Score: Balance between precision and recall.
+
+ - *Confusion Matrices*:
+      - Visualized confusion matrices for a better understanding of the classification results.
+
+## Results
+ - *Key Metrics*:
+      - SVM: Accuracy = XX%, Precision = XX%, Recall = XX%, F1-Score = XX%.
+      - KNN: Accuracy = XX%, Precision = XX%, Recall = XX%, F1-Score = XX%.
+        
+Detailed results and visualizations are included in the project notebook.
