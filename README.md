@@ -1,6 +1,6 @@
 # Data Mining 
 
-This project aims to detect fraudulent transactions using machine learning techniques and feature engineering. The dataset includes numerical, categorical, and text data. Advanced preprocessing methods, such as TF-IDF feature extraction, normalization, and categorical encoding, were applied to prepare the data for model training. Multiple machine learning models, including SVM and KNN, were trained to classify transactions as fraudulent or legitimate.
+This project aims to detect fraudulent transactions using machine learning techniques and feature engineering. The dataset includes numerical, categorical, and text data. Advanced preprocessing methods, such as TF-IDF feature extraction, were employed to extract relevant features from the text data. Following this, feature selection techniques, including embedded approaches like Lasso and Random Forest importance, were used to identify the most significant characteristics, enhancing the model's predictive accuracy. Multiple machine learning models, including SVM and KNN, were then trained to classify transactions as fraudulent or legitimate.
 
 ![image](https://github.com/user-attachments/assets/9cebadab-d6ca-49d8-90ef-b18d746bd2bf)
 
@@ -25,6 +25,8 @@ This project aims to detect fraudulent transactions using machine learning techn
   
 - *Feature Selection*:
     - Feature importance ranking using SelectKBest with the Chi-Square test.
+    - Lasso regression for feature selection based on coefficient magnitude.
+    - Random Forest importance ranking to identify significant features.
   
 - *Machine Learning Models*:
     - Support Vector Machine (SVM).
@@ -42,6 +44,7 @@ This project aims to detect fraudulent transactions using machine learning techn
    - *Scikit-learn*: Machine learning algorithms, preprocessing, and evaluation.
    - *Matplotlib and Seaborn*: Data visualization.
    - *TF-IDF Vectorizer*: Feature extraction for text data.
+   - *Lasso and Random Forest*: Techniques for feature selection and importance ranking.
 
 ## Data Preprocessing
  1. *Dataset Cleaning*:
@@ -61,6 +64,9 @@ This project aims to detect fraudulent transactions using machine learning techn
         
  2. *Feature Selection*:
       - Selected the most important features using SelectKBest with the Chi-Square test.
+      - Lasso regression for feature selection based on coefficient magnitude.
+      - Random Forest importance ranking to identify significant features.
+   
 
 ## Modeling
  - *Machine Learning Models*:
