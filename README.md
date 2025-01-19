@@ -25,6 +25,8 @@ This project aims to detect fraudulent transactions using machine learning techn
   
 - *Feature Selection*:
     - Feature importance ranking using SelectKBest with the Chi-Square test.
+    - Lasso regression for feature selection based on coefficient magnitude.
+    - Random Forest importance ranking to identify significant features.
   
 - *Machine Learning Models*:
     - Support Vector Machine (SVM).
@@ -42,6 +44,7 @@ This project aims to detect fraudulent transactions using machine learning techn
    - *Scikit-learn*: Machine learning algorithms, preprocessing, and evaluation.
    - *Matplotlib and Seaborn*: Data visualization.
    - *TF-IDF Vectorizer*: Feature extraction for text data.
+   - *Lasso and Random Forest*: Techniques for feature selection and importance ranking.
 
 ## Data Preprocessing
  1. *Dataset Cleaning*:
@@ -61,6 +64,9 @@ This project aims to detect fraudulent transactions using machine learning techn
         
  2. *Feature Selection*:
       - Selected the most important features using SelectKBest with the Chi-Square test.
+      - Lasso regression for feature selection based on coefficient magnitude.
+      - Random Forest importance ranking to identify significant features.
+   
 
 ## Modeling
  - *Machine Learning Models*:
