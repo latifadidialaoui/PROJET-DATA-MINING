@@ -4,7 +4,6 @@ This project aims to detect fraudulent transactions using machine learning techn
 
 ![image](https://github.com/user-attachments/assets/9cebadab-d6ca-49d8-90ef-b18d746bd2bf)
 
-
 ## Table of Contents
 - [Project Description](#project-description)
 - [Features](#features)
